@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Icons -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        />
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:weight@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Icons -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        />
+        <!-- Slider Style -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css"
+        />
+        <!-- External Style Sheet -->
+        <link rel="stylesheet" href="main.css" />
+        <!-- Tiny Slider Library -->
+        <script
+            defer
+            src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"
+        ></script>
+        <!-- External JavaScript -->
+        <script defer src="main.js"></script>
+        <title>Motor Demon</title>
+    </head>
+    <body>
+        <!-- Nav Section -->
+        <nav>
+            <h2 class="logo logo--dark">DC - WD</h2>
+            <ul class="nav__links">
+                <li class="nav__close">
+                    <button class="nav-close__btn">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </li>
+                <li>
+                    <a href="#!" class="nav__link">Home</a>
+                </li>
+                <li>
+                    <a href="#!" class="nav__link">Pages</a>
+                </li>
+                <li>
+                    <a href="#!" class="nav__link">Parts</a>
+                </li>
+                <li>
+                    <a href="#!" class="nav__link">Engines</a>
+                </li>
+                <li>
+                    <a href="#!" class="nav__link">Blog</a>
+                </li>
+                <li>
+                    <a href="#!" class="nav__link">Bikes</a>
+                </li>
+                <li>
+                    <a href="#!" class="nav__link"
+                        >Cart (<span class="cart-count">0</span>)</a
+                    >
+                </li>
+            </ul>
+            <button class="nav__menu"><i class="fas fa-bars"></i></button>
+        </nav>
+
+        <!-- Slider Section -->
+        <div class="slider-wrapper">
+            <div class="img-slider">
+                <div>
+                    <img src="images/slider/img1.jpg" alt="Image #1" />
+                </div>
+                <div>
+                    <img src="images/slider/img2.jpg" alt="Image #2" />
+                </div>
+                <div>
+                    <img src="images/slider/img3.jpg" alt="Image #3" />
+                </div>
+                <div>
+                    <img src="images/slider/img4.jpg" alt="Image #4" />
+                </div>
+                <div>
+                    <img src="images/slider/img5.jpg" alt="Image #5" />
+                </div>
+                <div>
+                    <img src="images/slider/img6.jpg" alt="Image #6" />
+                </div>
+            </div>
+            <div class="custom-controls">
+                <button class="slider-control prev">
+                    <i class="fas fa-arrow-left"></i>
+                </button>
+                <button class="slider-control next">
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Feature Section -->
+        <section class="feature">
+            <h1 class="feature__header">Other Amazing Features</h1>
+            <p class="normal-text feature__text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                reprehenderit, sed dolor deserunt esse eos. Ipsa libero sed
+                necessitatibus. Autem itaque.
+            </p>
+            <div class="feature__split-info">
+                <div class="feature__col">
+                    <div class="feature-card__icon">
+                        <img
+                            src="images/feature/engine_icon.png"
+                            alt="Combustion Engine"
+                        />
+                    </div>
+                    <h3 class="card-header feature-card__header">
+                        Combustion Engine
+                    </h3>
+                    <p class="normal-text feature-card__text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Inventore earum minus reprehenderit dolorem.
+                    </p>
+                </div>
+                <div class="feature__col">
+                    <div class="feature-card__icon">
+                        <img
+                            src="images/feature/speed_icon.png"
+                            alt="Speedometer"
+                        />
+                    </div>
+                    <h3 class="card-header feature-card__header">Very Fast</h3>
+                    <p class="normal-text feature-card__text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Inventore earum minus reprehenderit dolorem.
+                    </p>
+                </div>
+                <div class="feature__col">
+                    <div class="feature-card__icon">
+                        <img
+                            src="images/feature/material_icon.png"
+                            alt="Titanium Material"
+                        />
+                    </div>
+                    <h3 class="card-header feature-card__header">
+                        Titanium Material
+                    </h3>
+                    <p class="normal-text feature-card__text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Inventore earum minus reprehenderit dolorem.
+                    </p>
+                </div>
+            </div>
+
+            <div class="feature__split-img">
+                <img src="images/feature/engine.jpg" alt="Engine" />
+                <img src="images/feature/green_energy.jpg" alt="Green Energy" />
+                <img src="images/feature/speed.jpg" alt="Speed" />
+                <img
+                    src="images/feature/titanium_metal.jpg"
+                    alt="Titanium Metal"
+                />
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery">
+            <div class="gallery__split-info">
+                <h2 class="gallery__header">
+                    Image galleries and interactive features.
+                </h2>
+                <ul class="gallery__list">
+                    <li class="normal-text">
+                        <i class="fas fa-check"></i> Lorem ipsum dolor sit amet
+                        consectetur.
+                    </li>
+                    <li class="normal-text">
+                        <i class="fas fa-check"></i> In, exercitationem. Harum
+                        providen.
+                    </li>
+                    <li class="normal-text">
+                        <i class="fas fa-check"></i> Ipsum porro ratione
+                        quisquam amet atque.
+                    </li>
+                    <li class="normal-text">
+                        <i class="fas fa-check"></i> Nisi aliquid numquam
+                        doloribus quia iste.
+                    </li>
+                    <li class="normal-text">
+                        <i class="fas fa-check"></i> Libero nihil maiores soluta
+                        laborum.
+                    </li>
+                </ul>
+                <ul class="gallery__list">
+                    <li class="normal-text">
+                        <i class="fas fa-check"></i> Lorem ipsum dolor sit amet
+                        consectetur.
+                    </li>
+                    <li class="normal-text">
+                        <i class="fas fa-check"></i> Officia officiis quas
+                        voluptatum nihil.
+                    </li>
+                    <li class="normal-text">
+                        <i class="fas fa-check"></i> Facere tenetur iusto
+                        similique perspiciatis.
+                    </li>
+                    <li class="normal-text">
+                        <i class="fas fa-check"></i> Aspernatur fuga aliquam
+                        unde nostrum.
+                    </li>
+                    <li class="normal-text">
+                        <i class="fas fa-check"></i> Dolores enim impedit
+                        asperiores quasi fuga?
+                    </li>
+                </ul>
+            </div>
+
+            <div class="gallery__split-card">
+                <div class="card">
+                    <img
+                        src="images/gallery/img1.jpg"
+                        alt="Image #1"
+                        class="card__img"
+                    />
+                    <h3 class="card-header gallery-card__header">
+                        Best Bike Of 2020
+                    </h3>
+                    <p class="normal-text card__text">$10,145</p>
+                </div>
+                <div class="card">
+                    <img
+                        src="images/gallery/img2.jpg"
+                        alt="Image #2"
+                        class="card__img"
+                    />
+                    <h3 class="card-header gallery-card__header">
+                        Slow but Offroad Master
+                    </h3>
+                    <p class="normal-text card__text">$5,545</p>
+                </div>
+                <div class="card">
+                    <img
+                        src="images/gallery/img3.jpg"
+                        alt="Image #3"
+                        class="card__img"
+                    />
+                    <h3 class="card-header gallery-card__header">
+                        King of Old Bikes
+                    </h3>
+                    <p class="normal-text card__text">$9,239</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Logo Section -->
+        <div class="section-logo">
+            <img src="logos/logo1.svg" />
+            <img src="logos/logo2.svg" />
+            <img src="logos/logo5.svg" />
+            <img src="logos/logo6.svg" />
+            <img src="logos/logo7.svg" />
+        </div>
+
+        <!-- Footer Section -->
+        <footer>
+            <div class="footer__split">
+                <div class="footer__about">
+                    <h2 class="logo logo--light">DC - WD</h2>
+                    <img
+                        class="footer-about__pfp"
+                        src="images/pfp.jpg"
+                        alt="Profile Picture"
+                    />
+                    <p class="normal-text footer-about__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quae perspiciatis voluptatum modi aliquid, asperiores
+                        quod!
+                    </p>
+                </div>
+                <div class="footer__posts">
+                    <h3 class="footer__split-header">Latest Posts</h3>
+                    <div class="post">
+                        <p class="normal-text post__title">
+                            Lorem ipsum dolor sit amet consectetur.
+                        </p>
+                        <p class="normal-text post__date">04/03/2021</p>
+                    </div>
+                    <div class="post">
+                        <p class="normal-text post__title">
+                            Lorem ipsum dolor, sit amet consectetur.
+                        </p>
+                        <p class="normal-text post__date">12/05/2021</p>
+                    </div>
+                    <div class="post">
+                        <p class="normal-text post__title">
+                            Lorem ipsum dolor sit amet consectetur adipisicing.
+                        </p>
+                        <p class="normal-text post__date">21/7/2021</p>
+                    </div>
+                </div>
+                <div class="footer__tweets">
+                    <h3 class="footer__split-header">Latest Tweets</h3>
+                    <ul class="tweet-list">
+                        <li class="normal-text tweet">
+                            <i class="fab fa-twitter"></i>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Rerum facere ratione repellat
+                                quam
+                                <a
+                                    class="footer__tweet-link"
+                                    href="http://blow.example.com/authority.html"
+                                    >http://blow.example.com/authority.html</a
+                                >
+                                veritatis, vitae ullam amet reiciendis quis,
+                                dolorem, quasi ab. 👍
+                            </p>
+                        </li>
+                        <li class="normal-text tweet">
+                            <i class="fab fa-twitter"></i>
+                            <p>
+                                Lorem ipsum dolor sit amet 😃 consectetur
+                                adipisicing elit. Rerum facere ratione repellat
+                                quam voluptatibus qui quo veritatis, vitae ullam
+                                amet reiciendis
+                                <a
+                                    class="footer__tweet-link"
+                                    href="https://www.example.com/bait.php"
+                                    >https://www.example.com/bait.php</a
+                                >
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__form-wrapper">
+                    <h3 class="footer__split-header">Join The Club</h3>
+                    <form class="footer__form">
+                        <input
+                            type="email"
+                            placeholder="Enter your email"
+                            required
+                        />
+                        <button type="submit">GO</button>
+                    </form>
+                    <p class="footer__form-text normal-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Voluptate ipsum numquam velit repellat aperiam
+                        autem!
+                    </p>
+                    <div class="footer__icons">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-google-plus-g"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                        <i class="fab fa-pinterest-p"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
